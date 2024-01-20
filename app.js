@@ -5,7 +5,7 @@ const cookieparser = require("cookie-parser")
 const morgan = require("morgan")
 const cors = require("cors")
 const mongoose = require("mongoose")
-const BASE_URL = ["https://upsellzbackend.vercel.app/",]    //   https://demo.blackhatcode.in
+const BASE_URL = ["https://upsellzbackend-rcbta4htx-rahuls-projects-44dfd132.vercel.app",]    //   https://demo.blackhatcode.in
 const config = require("./config")
 
 const port  = config.PORT || 5000;
