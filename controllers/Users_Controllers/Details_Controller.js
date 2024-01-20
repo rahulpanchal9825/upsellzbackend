@@ -48,6 +48,7 @@ const createUser = async(req,res)=>{
 
 // Login user 
 const loginUser = async(req,res)=>{
+    console.log("called");
     const {email,password} = req.body;
     console.log("email,password",email,password)
     try{
